@@ -40,12 +40,12 @@ The model is trained on the popular `ner_dataset.csv`, which includes:
 
 1. **Upload Dataset**  
    Upload `ner_dataset.csv` using:
-   ```python
+   python
+   ```
    from google.colab import files
-   uploaded = files.upload()
-````
+   uploaded = files.upload()```
 
-2. **Install Dependencies**
+3. **Install Dependencies**
    Install the required packages in Colab:
 
    ```bash
@@ -53,7 +53,7 @@ The model is trained on the popular `ner_dataset.csv`, which includes:
    python -m spacy download en_core_web_sm
    ```
 
-3. **Run Notebook Cells**
+4. **Run Notebook Cells**
    Follow the notebook cells to:
 
    * Preprocess the data
@@ -61,7 +61,7 @@ The model is trained on the popular `ner_dataset.csv`, which includes:
    * Evaluate the model
    * Visualize named entities using spaCy
 
-4. **Named Entity Visualization**
+5. **Named Entity Visualization**
    Run the following snippet to visualize entities:
 
    ```python
@@ -73,8 +73,6 @@ The model is trained on the popular `ner_dataset.csv`, which includes:
    doc = nlp(text)
    displacy.serve(doc, style="ent")
    ```
-
----
 
 ## 📈 Training Output
 
@@ -99,8 +97,6 @@ Detected Entities:
 * **Subrata** → PERSON
 * **Machine Learning** → FIELD
 * **Student** → PROFESSION
-
----
 
 ## 📁 Folder Structure
 
