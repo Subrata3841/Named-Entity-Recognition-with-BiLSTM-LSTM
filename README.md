@@ -97,7 +97,7 @@ Detected Entities:
 * **Subrata** → PERSON
 * **Machine Learning** → FIELD
 * **Student** → PROFESSION
-
+---
 ## 📁 Folder Structure
 
 ```
@@ -105,6 +105,7 @@ Detected Entities:
 ├── Named_Entity_Recognition.ipynb
 ├── README.md
 ```
+---
 ## 🙋‍♂️ Author
 
 **Subrata Mandal**
